@@ -1,0 +1,5 @@
+ALTER TABLE sun_data RENAME COLUMN date TO jd;
+
+ALTER TABLE sun_data
+MODIFY COLUMN jd INT;
+
